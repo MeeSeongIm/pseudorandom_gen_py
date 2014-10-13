@@ -31,7 +31,7 @@ comp2 = random2(n)  # computer's second card
 q1 = input("Would you like a card? ").lower()  
 yes = set(["yes", "ye", "y"])  
 if q1 in yes: 
-    n=12 
+    n=11
     def user_rand1(n): 
         return randint(2,n) 
     user1 = user_rand1(n) 

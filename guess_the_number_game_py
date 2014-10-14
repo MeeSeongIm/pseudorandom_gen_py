@@ -1,4 +1,5 @@
 # guess the number game 
+# the computer will pick a number and the user is asked to guess its number in 5 tries. 
 
 from random import randint
 n=100 
@@ -8,7 +9,7 @@ def randnum(n):
 comp = randnum(n)
  
 
-print("Pick a number between 1 to 100 and your job is to guess the number in 5 tries.")
+print("Pick a number between 1 to 100 and your job is to guess my number in 5 tries.")
 guess1 = int(input("First guess: "))
 if guess1 <= 100 and guess1 >= 1:
     if guess1 == comp:
